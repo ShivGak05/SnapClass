@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+dlib-bin #for face recognition
+#https://github.com/ageitgey/face_recognition_models #this is to get the embeddings of facial features and I am downloading it directly from the terminal so commented it here.
+setuptools<70.0.0 #because I am downloading something from github which is not a pyhton package
+supabase #Free and very good performancce
+bcrypt #for hashing passwords
+
+segno #a simple library for generating QR codes
+pillow #for image processing
+streamlit #for building the frontend
