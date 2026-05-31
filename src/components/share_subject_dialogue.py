@@ -5,7 +5,7 @@ import io
 
 @st.dialog("Share class link")
 def share_subject_dialogue(subject_name,subject_code):
-    app_domain="http://localhost:8501"
+    app_domain="snapclass-main-shivgak"
     join_url=f"{app_domain}/?join-code={subject_code}"
     st.header("Scan to Join")
     qr=segno.make(join_url)
